@@ -1,0 +1,15 @@
+﻿<Window x:Class="Finstats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Finstats"
+        mc:Ignorable="d"
+        Title="Inicio" Height="450" Width="800">
+    <Grid>
+        <!-- Grid é como un contenedor no que metes o da pantalla -->
+        <Label Content="Archivos" HorizontalAlignment="Left" Margin="462,100,0,0" VerticalAlignment="Top"/>
+        <Button Content="Crear Archivo" Width="100" Height="30" Click="CrearNuevoArchivo" Margin="462,131,238,273"/>
+        <ListBox x:Name="ArchivoListBox" SelectionChanged="ArchivoListBox_SelectionChanged" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+    </Grid>
+</Window>
