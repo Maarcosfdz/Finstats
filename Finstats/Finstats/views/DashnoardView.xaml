@@ -1,0 +1,36 @@
+<Window x:Class="Finstats.DashboardView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dashboard" Height="200" Width="300">
+	<Grid>
+		<Button Content="Añadir Gasto" Click="AbrirPopup_Click" Width="150" Height="30" HorizontalAlignment="Left" Margin="20"/>
+
+		<Popup x:Name="popupGasto" Placement="MousePoint" StaysOpen="False">
+			<Border Background="LightGray" Padding="10" CornerRadius="5">
+				<StackPanel>
+					<TextBlock Text="Nombre:"/>
+					<TextBox x:Name="txtNombre"/>
+
+					<TextBlock Text="Cantidad:"/>
+					<TextBox x:Name="txtCantidad"/>
+
+					<TextBlock Text="Fecha:"/>
+					<DatePicker x:Name="dateFecha"/>
+
+					<TextBlock Text="Categoría:"/>
+					<ComboBox x:Name="cbCategoria">
+						<ComboBoxItem Content="Alimentación"/>
+						<ComboBoxItem Content="Transporte"/>
+						<ComboBoxItem Content="Entretenimiento"/>
+						<ComboBoxItem Content="Otros"/>
+					</ComboBox>
+
+					<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+						<Button Content="Guardar" Click="GuardarGasto_Click" Margin="5"/>
+						<Button Content="Cerrar" Click="CerrarPopup_Click" Margin="5"/>
+					</StackPanel>
+				</StackPanel>
+			</Border>
+		</Popup>
+	</Grid>
+</Window>

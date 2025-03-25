@@ -1,4 +1,4 @@
-﻿using Finstats.BaseDatos;
+﻿
 using System.Configuration;
 using System.Data;
 using System.Windows;
@@ -11,10 +11,5 @@ namespace Finstats
     // App.xaml.cs
     public partial class App : Application
     {
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-            Instalar_ruta.InstalarRuta(); // Inicializar el directorio al inicio de la aplicación
-        }
     }
 }

@@ -1,22 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\",
+  "WorkspaceRootPath": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\onedrive\\escritorio\\programaci\u00F3n\\finstats\\finstats\\finstats\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\onedrive\\escritorio\\programaci\u00F3n\\finstats\\finstats\\finstats\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\views\\dashnoardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\views\\dashnoardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\data\\basedatosorixinal.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\data\\basedatosorixinal.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\onedrive\\escritorio\\programaci\u00F3n\\finstats\\finstats\\finstats\\basedatos\\create_and_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\basedatos\\create_and_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\onedrive\\escritorio\\programaci\u00F3n\\finstats\\finstats\\finstats\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\views\\dashnoardview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\views\\dashnoardview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|c:\\users\\mroma\\source\\repos\\finstats\\finstats\\finstats\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77606849-424E-4147-B246-70BFA9E72489}|Finstats\\Finstats.csproj|solutionrelative:finstats\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +62,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Finstats\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\App.xaml.cs",
-              "RelativeToolTip": "Finstats\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:32:46.802Z"
+              "Title": "DashnoardView.xaml",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashnoardView.xaml",
+              "RelativeDocumentMoniker": "Finstats\\views\\DashnoardView.xaml",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashnoardView.xaml",
+              "RelativeToolTip": "Finstats\\views\\DashnoardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T11:42:47.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create_and_Load.cs",
-              "DocumentMoniker": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\BaseDatos\\Create_and_Load.cs",
-              "RelativeDocumentMoniker": "Finstats\\BaseDatos\\Create_and_Load.cs",
-              "ToolTip": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\BaseDatos\\Create_and_Load.cs",
-              "RelativeToolTip": "Finstats\\BaseDatos\\Create_and_Load.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAANAAAAAAAAAA==",
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "Finstats\\views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "Finstats\\views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:52:21.368Z"
+              "WhenOpened": "2025-03-24T11:26:16.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Finstats\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\App.xaml.cs",
+              "RelativeToolTip": "Finstats\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:09:21.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Finstats\\views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Finstats\\views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:51:34.076Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Finstats\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\MainWindow.xaml",
-              "RelativeToolTip": "Finstats\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Finstats\\views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\MainWindow.xaml",
+              "RelativeToolTip": "Finstats\\views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-10T10:13:14.095Z",
+              "WhenOpened": "2025-03-21T15:40:09.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Finstats\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mroma\\OneDrive\\Escritorio\\Programaci\u00F3n\\Finstats\\Finstats\\Finstats\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Finstats\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\models\\movimiento.cs",
+              "RelativeDocumentMoniker": "Finstats\\models\\movimiento.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\models\\movimiento.cs",
+              "RelativeToolTip": "Finstats\\models\\movimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T10:13:11.83Z"
+              "WhenOpened": "2025-03-21T15:20:06.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Finstats\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\data\\AppDbContext.cs",
+              "RelativeToolTip": "Finstats\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:20:02.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "baseDatosOrixinal.db",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\data\\baseDatosOrixinal.db",
+              "RelativeDocumentMoniker": "Finstats\\data\\baseDatosOrixinal.db",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\data\\baseDatosOrixinal.db",
+              "RelativeToolTip": "Finstats\\data\\baseDatosOrixinal.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-24T11:44:14.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "databaseService.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\services\\databaseService.cs",
+              "RelativeDocumentMoniker": "Finstats\\services\\databaseService.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\services\\databaseService.cs",
+              "RelativeToolTip": "Finstats\\services\\databaseService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:06:53.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "category.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\models\\category.cs",
+              "RelativeDocumentMoniker": "Finstats\\models\\category.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\models\\category.cs",
+              "RelativeToolTip": "Finstats\\models\\category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:20:07.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Finstats\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\AssemblyInfo.cs",
+              "RelativeToolTip": "Finstats\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:36:11.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashnoardView.xaml",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashnoardView.xaml",
+              "RelativeDocumentMoniker": "Finstats\\views\\DashnoardView.xaml",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\views\\DashnoardView.xaml",
+              "RelativeToolTip": "Finstats\\views\\DashnoardView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T11:41:15.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\App.xaml",
+              "RelativeDocumentMoniker": "Finstats\\App.xaml",
+              "ToolTip": "C:\\Users\\mroma\\source\\repos\\Finstats\\Finstats\\Finstats\\App.xaml",
+              "RelativeToolTip": "Finstats\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T15:40:20.755Z",
+              "EditorCaption": ""
             }
           ]
         }
