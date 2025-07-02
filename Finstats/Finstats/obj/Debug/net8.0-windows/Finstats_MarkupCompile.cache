@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\mroma\Source\Repos\Finstats\Finstats\Finstats\obj\Debug\net8.0-windows\
+C:\Users\mroma\Desktop\Programación\Finstats\FinstatsCode\Finstats\Finstats\obj\Debug\net8.0-windows\
 Finstats
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\mroma\Source\Repos\Finstats\Finstats\Finstats\App.xaml
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\mroma\Desktop\Programación\Finstats\FinstatsCode\Finstats\Finstats\App.xaml
 2132553059
 
 9-593555284
-2171249942870
+217-2074190543
 views\DashnoardView.xaml;views\MainWindow.xaml;
 
 False

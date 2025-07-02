@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using FinanceApp.Models;
 
-//revisar porque metin un copypega de manual
 namespace FinanceApp.Data
 {
     public class AppDbContext : DbContext
@@ -10,35 +9,88 @@ namespace FinanceApp.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Movimiento> Movimientos { get; set; }
 
-        private string _databasePath;
+        private readonly string _databasePath;
 
-        // Constructor que recibe la ruta de la base de datos
+        // Constructor que recibe a ruta da base de datos
         public AppDbContext(string databasePath)
         {
             _databasePath = databasePath;
+
+            // Crea a base de datos e as táboas se non existen
+            Database.EnsureCreated();
         }
 
-        // Configuración de la base de datos (usando la ruta dinámica)
+        // Configuración da conexión a SQLite
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)  // Solo configurar si no está configurado ya
+            if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlite($"Data Source={_databasePath}");
             }
         }
 
-        // Configuración de las relaciones entre las entidades
+        // Configuración das relacións  REVISAR
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Relación muchos a muchos entre Movimiento y Category
+            // Clave primaria e propiedades obrigatorias
+            modelBuilder.Entity<Category>()
+                .HasKey(c => c.Nombre);
+
+            modelBuilder.Entity<Category>()
+                .Property(c => c.Nombre)
+                .IsRequired();
+
+            modelBuilder.Entity<Category>()
+                .Property(c => c.IdentGasto)
+                .IsRequired();
+
+            modelBuilder.Entity<Movimiento>()
+                .HasKey(m => m.Id);
+
+            modelBuilder.Entity<Movimiento>()
+                .Property(m => m.Id)
+                .ValueGeneratedOnAdd(); // Auto-incremento
+
+            modelBuilder.Entity<Movimiento>()
+                .Property(m => m.Nombre)
+                .IsRequired();
+
+            modelBuilder.Entity<Movimiento>()
+                .Property(m => m.Cant)
+                .IsRequired();
+
+            modelBuilder.Entity<Movimiento>()
+                .Property(m => m.Data)
+                .IsRequired();
+
+            modelBuilder.Entity<Movimiento>()
+                .Property(m => m.IdentGasto)
+                .IsRequired();
+
+            // Relación moitos a moitos sen cascada
             modelBuilder.Entity<Movimiento>()
                 .HasMany(m => m.Categories)
                 .WithMany(c => c.Movimientos)
                 .UsingEntity<Dictionary<string, object>>(
                     "MovimientoCategory",
-                    mc => mc.HasOne<Category>().WithMany().HasForeignKey("CategoryName"),
-                    mc => mc.HasOne<Movimiento>().WithMany().HasForeignKey("MovimientoId")
-                );
+                    j => j
+                        .HasOne<Category>()
+                        .WithMany()
+                        .HasForeignKey("CategoryNombre")
+                        .HasPrincipalKey(c => c.Nombre)
+                        .OnDelete(DeleteBehavior.Cascade), // Elimina só da táboa intermedia
+
+                    j => j
+                        .HasOne<Movimiento>()
+                        .WithMany()
+                        .HasForeignKey("MovimientoId")
+                        .OnDelete(DeleteBehavior.Cascade), // Elimina só da táboa intermedia
+
+                    j =>
+                    {
+                        j.HasKey("MovimientoId", "CategoryNombre");
+                    });
         }
+
     }
 }

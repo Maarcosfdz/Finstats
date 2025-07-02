@@ -1,7 +1,8 @@
-﻿using System;
+﻿using FinanceApp.Data;
+using Finstats.Services; 
+using System;
 using System.IO;
 using System.Windows;
-using Finstats.Services; 
 
 namespace Finstats
 {
@@ -14,39 +15,84 @@ namespace Finstats
         static string dbOriginal = Path.Combine(Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName, "data");
         string dbFolder = Path.Combine(dbOriginal, "dataBases");
 
+
+        
+
         public MainWindow()
         {
             InitializeComponent();
-            _databaseService = new DatabaseService(); // Inicializa el servicio
+            if (Directory.Exists(dbFolder)) //Si existe la carpeta
+            {
+                string[] dbFiles = Directory.GetFiles(dbFolder, "*db"); //bases de datos das carpetas
+                ShowDataBases(dbFiles);
+            }
+            else //Si no reinicia la app
+            {
+                System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+                Application.Current.Shutdown();
+            }
         }
 
         private void DuplicateDatabaseButton_Click(object sender, RoutedEventArgs e)
         {
             /*
-             * cmabiar por se é succes que cambie xa para a pantalla
+             * cambiar por se é succes que cambie xa para a pantalla
              */
             try
             {
                 int number = 1;
-                while (File.Exists(Path.Combine(dbFolder, "dataBase" + number + ".db"))) //basicamente é como nuevo archivo1, 2,3...
-                {
-                    number++;
-                }
-                //Crea o archivo
-                bool success = _databaseService.DuplicateDatabase(Path.Combine(dbOriginal,"baseDatosOrixinal.db"), Path.Combine(dbFolder, "dataBase" + number + ".db"));
+                string newDbPath;
 
-                if (success)
+                // Buscar un nome dispoñible tipo dataBase1.db, dataBase2.db...
+                do
                 {
-                    MessageBox.Show("Base de datos duplicada exitosamente.");
+                    newDbPath = Path.Combine(dbFolder, $"dataBase{number}.db");
+                    number++;
+                } while (File.Exists(newDbPath));
+
+                // Nun futuro añadir para poder personalizar o nome da base de datos
+
+                // Crear a nova base de datos
+                using var context = new AppDbContext(newDbPath);
+                context.Database.EnsureCreated();
+
+
+                if (File.Exists(newDbPath))
+                {
+                    MessageBox.Show("Base de datos duplicada correctamente.");
+
+                    // AbrirNovaPantallaConContexto(context);
                 }
                 else
                 {
-                    MessageBox.Show("Hubo un error al duplicar la base de datos.");
+                    MessageBox.Show("Non se puido crear a nova base de datos.");
                 }
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+
+        private void ShowDataBases(string[] dbFiles) 
+        {
+            DatabaseList.Items.Clear(); 
+
+            foreach (string filePath in dbFiles)
+            {
+                string fileName = Path.GetFileNameWithoutExtension(filePath); 
+                DatabaseList.Items.Add(fileName);
+            }
+        }
+        private void OpenDataBase(object sender, RoutedEventArgs e)
+        {
+            if (DatabaseList.SelectedItem is string fileName)
+            {
+                string selectedDatabase = Path.Combine(dbFolder, fileName + ".db");
+                _databaseService = new DatabaseService(selectedDatabase); // Inicializa el servicio, nn sei se teño que cerralo ao cerrar, mirar
+                DashboardView dashboardView = new DashboardView(selectedDatabase);
+                dashboardView.Show();
             }
         }
     }

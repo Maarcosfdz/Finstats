@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mroma\\Source\\Repos\\Finstats\\Finstats\\Finstats\\Finstats.csproj": {}
+    "C:\\Users\\mroma\\Desktop\\Programación\\Finstats\\FinstatsCode\\Finstats\\Finstats\\Finstats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mroma\\Source\\Repos\\Finstats\\Finstats\\Finstats\\Finstats.csproj": {
+    "C:\\Users\\mroma\\Desktop\\Programación\\Finstats\\FinstatsCode\\Finstats\\Finstats\\Finstats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mroma\\Source\\Repos\\Finstats\\Finstats\\Finstats\\Finstats.csproj",
+        "projectUniqueName": "C:\\Users\\mroma\\Desktop\\Programación\\Finstats\\FinstatsCode\\Finstats\\Finstats\\Finstats.csproj",
         "projectName": "Finstats",
-        "projectPath": "C:\\Users\\mroma\\Source\\Repos\\Finstats\\Finstats\\Finstats\\Finstats.csproj",
+        "projectPath": "C:\\Users\\mroma\\Desktop\\Programación\\Finstats\\FinstatsCode\\Finstats\\Finstats\\Finstats.csproj",
         "packagesPath": "C:\\Users\\mroma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mroma\\Source\\Repos\\Finstats\\Finstats\\Finstats\\obj\\",
+        "outputPath": "C:\\Users\\mroma\\Desktop\\Programación\\Finstats\\FinstatsCode\\Finstats\\Finstats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -78,28 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.200, 9.0.200]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -108,7 +86,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
